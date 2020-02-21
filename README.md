@@ -1,1 +1,1 @@
-# oneM2M_shortname_finder
+# just run 'index.html'
