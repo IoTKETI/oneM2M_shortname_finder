@@ -18,20 +18,20 @@
     <div id="search" class="inline-controls">
       <div id="short_filter" class="control">
         <label for="filter-shortname">Search by short name (exact match)</label>
-        <input type="text" id="filter-shortname" />
+        <input type="text" id="filter-shortname" onKeypress="pressEnter();"/>
       </div>
       <div id="long_filter" class="control">
         <label for="filter-longname">Search by long name (partial match)</label>
-        <input type="text" id="filter-longname" />
+        <input type="text" id="filter-longname" onKeypress="pressEnter();"/>
       </div>
       <br />
       <div id="occursin_filter" class="control">
           <label for="filter-occursin">Search by occurs in (partial match)</label>
-          <input type="text" id="filter-occursin" />
+          <input type="text" id="filter-occursin" onKeypress="pressEnter();"/>
         </div>
         <div id="category_filter" class="control">
           <label for="filter-category">Search by category (partial match)</label>
-          <input type="text" id="filter-category" />
+          <input type="text" id="filter-category" onKeypress="pressEnter();"/>
         </div>
         <button id="search-btn">Search</button>
     </div>

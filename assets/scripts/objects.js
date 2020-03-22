@@ -866,3 +866,9 @@ const searchAnyHandler = () => {
 };
 
 searchBtn.addEventListener('click', searchAnyHandler);
+
+function pressEnter() {
+  if (window.event.keyCode == 13) {
+    searchAnyHandler();
+  }
+}
