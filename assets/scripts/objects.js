@@ -8,9 +8,9 @@ const virtual_res_shortnames = [
   {"shortName": "fopt", "longName": "fanOutPoint", "occursIn": "n/a", "category": "Virtual Resource Type Names", "TS": "TS-0004" },
   {"shortName": "sfop", "longName": "semanticFanOutPoint", "occursIn": "n/a", "category": "Virtual Resource Type Names", "TS": "TS-0004" },
   {"shortName": "pcu", "longName": "pollingChannelURI", "occursIn": "n/a", "category": "Virtual Resource Type Names", "TS": "TS-0004" },
-  {"shortName": "ntsr", "longName": "notificationTargetSelfReference", "n/a": "latest", "category": "Virtual Resource Type Names", "TS": "TS-0004" },
+  {"shortName": "ntsr", "longName": "notificationTargetSelfReference", "occursIn": "n/a", "category": "Virtual Resource Type Names", "TS": "TS-0004" },
   {"shortName": "smv", "longName": "semanticValidation", "occursIn": "n/a", "category": "Virtual Resource Type Names", "TS": "TS-0004" },
-  {"shortName": "msp", "longName": "mashup", "occursIn": "latest", "n/a": "Virtual Resource Type Names", "TS": "TS-0004" }
+  {"shortName": "msp", "longName": "mashup", "occursIn": "n/a", "category": "Virtual Resource Type Names", "TS": "TS-0004" }
 ];
 
 virtual_res_shortnames.forEach(def => {
