@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Searching for oneM2M shortname definitions</title>
+  <link rel="stylesheet" href="assets/styles/app.css" />
+  <script src="assets/scripts/objects.js" defer></script>
+</head>
+
+<body>
+  <h2><p align="center">oneM2M Standard Shortname Finder</p></h2>
+  <h3><p align="center">TS-0004 v4.3.0</p></h3>
+
+  <section id="search_box" class="card">
+    <div id="search" class="inline-controls">
+      <div id="short_filter" class="control">
+        <label for="filter-shortname">Search by short name (exact match)</label>
+        <input type="text" id="filter-shortname" onKeypress="pressEnter();"/>
+      </div>
+      <div id="long_filter" class="control">
+        <label for="filter-longname">Search by long name (partial match)</label>
+        <input type="text" id="filter-longname" onKeypress="pressEnter();"/>
+      </div>
+      <br />
+      <div id="occursin_filter" class="control">
+          <label for="filter-occursin">Search by occurs in (partial match)</label>
+          <input type="text" id="filter-occursin" onKeypress="pressEnter();"/>
+        </div>
+        <div id="category_filter" class="control">
+          <label for="filter-category">Search by category (partial match)</label>
+          <input type="text" id="filter-category" onKeypress="pressEnter();"/>
+        </div>
+        <button id="search-btn">Search</button>
+    </div>
+  </section>
+  <br />
+  <table id="result-table" class="card">
+    <tr>
+      <td>short name</td>
+      <td>long name</td>
+      <td>occurs in</td>
+      <td>category</td>
+      <td>TS</td>
+    </tr>
+  </table>
+  <br />
+  <br />
+  <br />
+</body>
+
+</html>

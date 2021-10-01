@@ -1,1 +1,1 @@
-# just run 'index.html'
+# just open 'finder.html'
